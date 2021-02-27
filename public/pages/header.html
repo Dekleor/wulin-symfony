@@ -1,0 +1,19 @@
+<header class="fade-in">
+    <div class="navigation-bar flex middle-xs">
+        <nav class="end-xs">
+            <ul>
+                <li><a href="#perso">Personnages</a></li>
+                <li><a href="#pnj">Personnalités</a></li>
+                <li><a href="#histo">Histoires</a></li>
+                <li><a href="#ecole">Écoles</a></li>
+                <li><a href="#leg">Légendes</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="hero flex middle-xs" style="background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url('img/fond.jpg');">
+        <div class="hero-text ">
+            <h1>Wulin</h1>
+            <p>Chroniques du Pinceau & de l'Épée</p>
+        </div>
+    </div>
+</header>

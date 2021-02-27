@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil Wulin{% endblock %}
+
+{% block body %}
+
+
+{% include '../pages/header.html' %}
+
+
+<div class="wrapper">
+    <main>
+
+        {% include '../pages/personnages.html' %}
+
+
+        <hr>
+
+        {% include '../pages/personnalités.html' %}
+
+        <hr>
+
+        {% include '../pages/histoire.html' %}
+
+
+        <hr>
+
+        {% include '../pages/ecoles.html' %}
+
+        <hr>
+
+        {% include '../pages/legendes.html' %}
+
+    </main>
+</div>
+{% endblock %}
