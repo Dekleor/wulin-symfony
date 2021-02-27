@@ -5,31 +5,31 @@
 {% block body %}
 
 
-{% include '../pages/header.html' %}
+{% include 'default/header.html.twig' %}
 
 
 <div class="wrapper">
     <main>
 
-        {% include '../pages/personnages.html' %}
+        {% include 'default/characters.html.twig' %}
 
 
         <hr>
 
-        {% include '../pages/personnalités.html' %}
+        {% include 'default/npcs.html.twig' %}
 
         <hr>
 
-        {% include '../pages/histoire.html' %}
+        {% include 'default/stories.html.twig' %}
 
 
         <hr>
 
-        {% include '../pages/ecoles.html' %}
+        {% include 'default/schools.html.twig' %}
 
         <hr>
 
-        {% include '../pages/legendes.html' %}
+        {% include 'default/legends.html.twig' %}
 
     </main>
 </div>
